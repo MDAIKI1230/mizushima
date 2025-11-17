@@ -18,6 +18,8 @@ int main()
         if(randNum)
         {
             std::cout << "取り出した" << stack.pop() << "\n";
+            stack.output();
+            std::cout << "\n";
         }
     }
 
