@@ -9,5 +9,5 @@ public:
     /// @param str スタート地点
     /// @param goal ゴール地点
     /// @return 最短経路の道順のノードID
-    std::vector<char> GetShortestPath(Node str,Node goal);
+    std::vector<char> getShortestPath(Node str,Node goal);
 };
